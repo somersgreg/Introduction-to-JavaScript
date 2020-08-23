@@ -22,21 +22,17 @@ if (doggo == null || doggo == "") {
   } else {
     var arr = doggo.split(" ");
     console.log("Array of elements", arr);
-    if (arr[0]>0)
-        else if {arr[2]<5.1){
+    if (arr[0]>0) {
+        if (arr[2]<=5){
             food = arr[2]*.05;
-        } else {
-            if (arr<10.1){
+        } else if (arr[2]<=10){
                 food = arr[2]*.04;
-            } else {
-                if (arr<15.1){
+            } else if (arr[2]<=15){
                     food = arr[2]*.03;
             } else {
-                food = (arr[2]*.02);
+                food = arr[2]*.02;
             }
-        }
-        food = arr[2]*.05;
-        console.log("Feed your adult doggo ", food," lbs of food.");
+        console.log("Feed your adult doggo ", food," lbs of food.")
 console.log("        _")
 console.log("        / )")
 console.log("     ,-(,' ,---.")
@@ -56,7 +52,8 @@ console.log(",.|                    |")
 console.log("(`\\ |                    |")
 console.log("(\\  |   --.      /  \\_   |")
 console.log("(__(   ___)-.   | '' )  /)")
-console.log("     `---...\\\\\\--(__))/-'-'")
+console.log("     `---...\\\\\\--(__))/-'-'");
+
     } else {
         food = arr[2]*.05;
         tillGrown = 12-arr[1];
