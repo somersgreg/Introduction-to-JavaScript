@@ -16,9 +16,71 @@
 
 // when you are finished invoke your function with the weight of 15 lbs and the age of 1 year - if your calculations are correct your result should be 0.44999999999999996
 
-// make a selector in html to run js task
-// weight
-// age
+var doggo = prompt("Enter doggo stats thusly: y m lbs","0 5 5");
+if (doggo == null || doggo == "") {
+    txt = "User cancelled the prompt.";
+  } else {
+    var arr = doggo.split(" ");
+    console.log("Array of elements", arr);
+    if (arr[0]>0)
+        else if {arr[2]<5.1){
+            food = arr[2]*.05;
+        } else {
+            if (arr<10.1){
+                food = arr[2]*.04;
+            } else {
+                if (arr<15.1){
+                    food = arr[2]*.03;
+            } else {
+                food = (arr[2]*.02);
+            }
+        }
+        food = arr[2]*.05;
+        console.log("Feed your adult doggo ", food," lbs of food.");
+console.log("        _")
+console.log("        / )")
+console.log("     ,-(,' ,---.")
+console.log("    (,-.\\,' `  _)-._")
+console.log("       ,' `(_)_)  ,-`--.")
+console.log("      /          (      )")
+console.log("     /            `-.,-'|")
+console.log("    /                |  /")
+console.log("    |               ,^ /")
+console.log("   /                   |")
+console.log("   |                   /")
+console.log("  /                   /")
+console.log("  |                   |")
+console.log("  |                   |")
+console.log(" /                    \\")
+console.log(",.|                    |")
+console.log("(`\\ |                    |")
+console.log("(\\  |   --.      /  \\_   |")
+console.log("(__(   ___)-.   | '' )  /)")
+console.log("     `---...\\\\\\--(__))/-'-'")
+    } else {
+        food = arr[2]*.05;
+        tillGrown = 12-arr[1];
+        console.log("Your doggo is a puppers still!");
+        console.log("Feed your puppers doggo ", food," lbs of food.");
+        console.log("Remember to change to adult feeding plan in", tillGrown, "months.");
+        console.log("              _ _")
+        console.log("        _(,_//  \\____________")
+        console.log("        |`. \\_@_@   `.     ,'")
+        console.log("        |\\ \\ .        `-,-'")
+        console.log("        || |  `-.____,-'")
+        console.log("        || /  /")
+        console.log("        |/ |  |")
+        console.log("   `..     /   \\")
+        console.log("     \\\\   /    |")
+        console.log("     ||  |      \\")
+        console.log("      \\\\ /-.    |")
+        console.log("      ||/  /_   |")
+        console.log("      \\(_____)-'_)")
+    }
+  }
+
+// make two new functions called adult and puppy
+// arr[0]=yrs ; arr[1]=months; arr[2]=weight
 // input age(years | months) and weight via alert pop up with 15lbs, (1yr | 0m) as default
 // if age is > 1 then a simple set of food based on weight in four groups
 // age under 1yr is in 3 groups.
