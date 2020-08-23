@@ -14,10 +14,10 @@ The module challenge is the afternoon project or assignment that students work t
 - write control flow using if/else statements.
 - use function declarations, expressions, and arrow
 functions and describe their differences
-  
+
 ## Introduction
 
-Today you'll worth through 7 JavaScript Tasks to practice today's objectives and get familiar and comfortable with the foundations of JavaScript. 
+Today you'll worth through 7 JavaScript Tasks to practice today's objectives and get familiar and comfortable with the foundations of JavaScript.
 
 Exercises are outlined in the `index.js` file, please read the instructions carefully for each task and complete it. Note that you may have to use your googling skills to research and look things up if you do not have all the information you need to complete the task.
 
@@ -35,7 +35,7 @@ Using VSCode and Command Line:
 
 ### Task 2: Complete MVP Requirements
 
-Find the `index.js` file and complete the tasks as written. 
+Find the `index.js` file and complete the tasks as written.
 
 As you work on your code you should make use of `console.log` to check your progress and debug.
 
@@ -49,7 +49,7 @@ The completion of these questions is mandatory for MVP. However, passing the qui
 
 After you have completed the requirements, try any of the following challenges. As always, note that these may require additional research beyond what you learned in this module.
 
-- [ ] See tasks labelled stretch. Please ensure you've completed MVP before you attempt the stretch goals. Note that you may need to look forward to tomorrow's training kit in order to complete the task. 
+- [ ] See tasks labelled stretch. Please ensure you've completed MVP before you attempt the stretch goals. Note that you may need to look forward to tomorrow's training kit in order to complete the task.
 
 ## Submission format
 
@@ -63,3 +63,78 @@ Follow these steps for completing your project.
 
 🧮 [Polya's 4 Step Approach to Problem Solving](http://web.mnstate.edu/peil/M110/Worksheet/PolyaProblemSolve.pdf)
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{background-color:#5d8aa8;color:midnightblue ;font-weight: 900;}
+    #menu{width:3em;}
+    span{animation: color-change 1s infinite;}
+    button{padding:20px; background-color: lightgreen;float: right;text-decoration:none;}
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+</style>
+
+<script>
+function myFunction() {
+  var menuNum = document.getElementById("menu").value;
+  var myPath = "JS_Task\\Task_" + menuNum + ".js"; // create src path
+  console.log(myPath);
+  let myCoolCode = document.createElement("script");
+  myCoolCode.setAttribute("src", "JS_Tasks\\Task_" + menuNum + ".js");
+  document.body.appendChild(myCoolCode);
+}
+</script>
+<!-- <script type="text/javascript" src=menuNum></script> -->
+</head>
+<body>
+
+  <label for="menu">Enter a task 1-8</label>
+  <input  type="number" id="menu" list="defaultNumbers" min="1" max="8"step="1" value="1">
+  <button onclick="myFunction()">Go</button>
+  <datalist id="defaultNumbers">
+    <option value="1">
+    <option value="2">
+    <option value="3">
+    <option value="4">
+    <option value="5">
+    <option value="6">
+    <option value="7">
+    <option value="8">
+  </datalist>
+
+</pre></div><div class="border-header border-top p-3"><pre class="pre-SM">
+       .--------..
+      -           -
+    /               \
+  /                   \
+ /    .--._    .---.   |
+ |  /      -__-     \   |
+ | |                 |  |
+  ||     ._   _.      ||
+  ||      <span>o   o</span>       ||
+  ||      _  |_      ||
+  C|     (o\_/o)     |O     Uhhh, this computer
+   \      _____      /       is like, busted or
+     \ ( /<span>#####</span>\ ) /       something. So go away.
+      \  `====='  /
+       \  -___-  /
+        |       |
+        /-_____-\
+      /           \
+    /               \
+   /__|  <span>AC / DC</span>  |__\
+   | ||           |\ \
+
+  <button><a href="LS+IntroToJSFix.html">Additional Challenges</button>
+
+</body>
+</html>

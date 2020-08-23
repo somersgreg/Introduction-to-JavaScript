@@ -1,3 +1,6 @@
+
+
+
 #JavaScript Data Types
 In JavaScript there are 5 different data types that can contain values:
 
