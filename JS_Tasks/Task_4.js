@@ -66,7 +66,15 @@ if(computerChoice == userChoice){
 
     //Improved check, inspired by Mke Spa Guy
     var victory = userChoice.defeats.indexOf(computerChoice) > -1;
-
+    console.log("userChoice.defeats.indexOf(computerChoice)", userChoice.defeats.indexOf(computerChoice))
+    console.log("userChoice.defeats", userChoice.defeats)
+    // EXAMPLE RUNS
+//    User=Rock / Compu=Paper
+//    userChoice.defeats.indexOf(computerChoice) -1
+//    Task_4.js:70 userChoice.defeats (2) ["scissors", "lizard"]
+//    User=Rock / Compu=Lizard
+//    userChoice.defeats.indexOf(computerChoice) 1
+//    Task_4.js:70 userChoice.defeats (2) ["scissors", "lizard"]
     //Display result
     if(victory) {
         alert("Vitory! " + userChoice.name + " wins!")

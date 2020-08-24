@@ -7,6 +7,20 @@
 //60s should be D
 //and anything below 60 should be F
 
-
-
-
+function grade(score){
+    if (score > 89){
+        lGrade ="A"
+    }
+    else if (score > 79){
+        lGrade="B"
+    }
+    else if (score > 69){
+        lGrade="C"
+    }
+    else if (score > 59){
+        lGrade="D"
+    }
+    else {
+    lGrade="F";
+    }console.log(`Your score of ${score} earns a letter grade of ${lGrade}!`)}
+grade(89);

@@ -38,3 +38,6 @@ false.constructor                 // Returns function Boolean() {[native code]}
 {name:'John',age:34}.constructor  // Returns function Object()  {[native code]}
 new Date().constructor            // Returns function Date()    {[native code]}
 function () {}.constructor        // Returns function Function(){[native code]}
+
+# I added sweetalert so now i gotta learn to use it
+###import swal from 'sweetalert';
