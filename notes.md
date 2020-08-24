@@ -41,3 +41,6 @@ function () {}.constructor        // Returns function Function(){[native code]}
 
 # I added sweetalert so now i gotta learn to use it
 ###import swal from 'sweetalert';
+
+# I want to refactor dog task to use guard clauses
+
