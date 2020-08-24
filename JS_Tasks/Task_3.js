@@ -75,13 +75,12 @@ console.log("     `---...\\\\\\--(__))/-'-'");
         console.log("      \\(_____)-'_)")
     }
   }
-
+// Pseudocoding:
 // make two new functions called adult and puppy
 // arr[0]=yrs ; arr[1]=months; arr[2]=weight
 // input age(years | months) and weight via alert pop up with 15lbs, (1yr | 0m) as default
 // if age is > 1 then a simple set of food based on weight in four groups
 // age under 1yr is in 3 groups.
-
 // round the result as pounds
 
 
