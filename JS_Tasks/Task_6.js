@@ -5,9 +5,11 @@
 
 
 function annoyingSong (num){
-    console.log(num++)
-    for (i=num; i <=0; i--)
-    console.log (`${num}, bottles of soda on the wall, ${num} bottles of soda, take one down pass it around", ${num-1} bottles of soda on the wall`)
+    console.log("num", num)
+    console.log("num plus 1", num+=1)
+    for (i=num; i >=0; i--){  // the condition is keep running until not true!!
+    console.log("annoyingSong -> i", i)
+    console.log (`${i}, bottles of soda on the wall, ${i} bottles of soda, take one down pass it around", ${i-1} bottles of soda on the wall`)}
     return num;
 }
 annoyingSong(5)
