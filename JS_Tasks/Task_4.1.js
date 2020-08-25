@@ -21,4 +21,3 @@
 // 2 beats 3 but loses to 1
 // 3 beats 1 but loses to 2
 
-function
